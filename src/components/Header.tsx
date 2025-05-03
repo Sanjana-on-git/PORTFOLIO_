@@ -31,7 +31,7 @@ export const Header: React.FC<HeaderProps> = ({ scrollPosition }) => {
     { id: 'projects', label: 'Projects', href: '#projects' },
     { id: 'skills', label: 'Skills', href: '#skills' },
     { id: 'about', label: 'About', href: '#about' },
-    { id: 'testimonials', label: 'Testimonials', href: '#testimonials' },
+    
     { id: 'contact', label: 'Contact', href: '#contact' },
   ];
 

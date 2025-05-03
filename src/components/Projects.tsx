@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import { ExternalLink, GithubLogo, MoveRight } from './Icons';
 import Lexi from '../images/Lexi.png';
 import buybetter from '../images/buybetter.png';
+import weather from '../images/weather.png';
+import chitchat from '../images/chitchat.png';
+import urbanPalette from '../images/urbanPalette.png';
+import TGF from '../images/TGF.png';
 // Project types
 type ProjectCategory = 'all' | 'web' | 'ui' | 'other';
 
@@ -33,53 +37,53 @@ export const Projects: React.FC = () => {
     },
     {
       id: 2,
-      title: 'E-commerce Platform',
+      title: 'BuyBetter - E-commerce Platform',
       description: 'A sleek and responsive e-commerce platform built using React, Tailwind CSS, and JavaScript. This project delivers a polished shopping experience with smooth animations, dynamic product listings, and interactive filtering systems. ',
       image: buybetter,
       technologies: ['HTML', 'Tailwind CSS', 'Vanilla CSS', 'JavaScript'],
       category: ['web'],
-      demoUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      demoUrl: 'https://buy-better.netlify.app/',
+      githubUrl: 'https://github.com/Sanjana-on-git/E-commerce'
     },
     {
       id: 3,
-      title: 'Travel Blog Platform',
-      description: 'A responsive blog platform focused on travel content with a custom CMS and interactive maps.',
-      image: 'https://images.pexels.com/photos/1051075/pexels-photo-1051075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      technologies: ['Next.js', 'Tailwind CSS', 'Sanity.io', 'MapBox'],
-      category: ['web', 'ui'],
-      demoUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      title: 'Mausam-o-Meter',
+      description: 'A responsive weather web app platform that provides real-time weather updates and forecasts. Built with HTML,CSS, and JavaScript, it features a user-friendly interface and interactive elements for an engaging experience.',
+      image: weather ,
+      technologies: ['HTML', 'CSS', 'Javascript'],
+      category: ['web'],
+      demoUrl: 'https://mausam-o-meter.netlify.app/',
+      githubUrl: 'https://github.com/Sanjana-on-git/Weather-app-2.git'
     },
     {
       id: 4,
-      title: 'Dashboard UI Kit',
-      description: 'A comprehensive UI kit for admin dashboards with 50+ components and dark/light mode support.',
-      image: 'https://images.pexels.com/photos/4383298/pexels-photo-4383298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      technologies: ['Figma', 'React', 'Storybook', 'CSS Modules'],
-      category: ['ui', 'web'],
-      demoUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      title: 'The Urban Palette',
+      description: 'The urban palette is a restaurant website that showcases a modern and elegant design. It features a user-friendly interface, responsive layout, and interactive elements to enhance the dining experience.',
+      image: urbanPalette,
+      technologies: [ 'React', 'Typescript','Javascript' ],
+      category: [ 'web'],
+      demoUrl: 'https://the-urban-palette.netlify.app/',
+      githubUrl: 'https://github.com/Sanjana-on-git/Restaurant-website'
     },
     {
       id: 5,
-      title: 'Task Management Tool',
-      description: 'Collaborative task management application with real-time updates and team workspaces.',
-      image: 'https://images.pexels.com/photos/669615/pexels-photo-669615.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      technologies: ['Vue.js', 'Supabase', 'Vite', 'TailwindCSS'],
-      category: ['web'],
-      demoUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      title: 'The Gliding Fork',
+      description: 'The Gliding Fork is a UI/UX project that showcases a modern and elegant design for a food ordering website. It features a user-friendly interface, responsive layout, and interactive elements to enhance the dining experience.',
+      image: TGF,
+      technologies: ['Figma', 'UI/UX Design','Prototyping'],
+      category: ['ui'],
+      demoUrl: 'https://www.figma.com/design/gL8NarMxqTloKvOqNbKeqj/TheGlidingFork?node-id=0-1&p=f&t=G58hSSMJjw0fHbKv-0',
+      githubUrl: '#'
     },
     {
       id: 6,
-      title: 'Weather App',
-      description: 'Weather forecasting application with beautiful visualizations and location-based data.',
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-      technologies: ['React Native', 'OpenWeather API', 'Expo', 'D3.js'],
+      title: 'Chit-Chat - Chat Bot',
+      description: 'A virtual assistant chatbot that helps users with various queries.',
+      image: chitchat,
+      technologies: ['HTML', 'CSS', 'JS', 'Node.js'],
       category: ['web'],
-      demoUrl: 'https://example.com',
-      githubUrl: 'https://github.com'
+      demoUrl: 'https://chit-chat-snap.netlify.app/',
+      githubUrl: 'https://github.com/Sanjana-on-git/Basic-JS-Chatbot'
     },
   ];
   
@@ -184,7 +188,7 @@ export const Projects: React.FC = () => {
         {/* View More Button */}
         <div className="text-center mt-12">
           <a 
-            href="https://github.com" 
+            href="https://github.com/Sanjana-on-git?tab=repositories&q=&type=source&language=&sort=" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex items-center px-6 py-3 border border-indigo-600 dark:border-indigo-400 text-indigo-600 dark:text-indigo-400 hover:bg-indigo-50 dark:hover:bg-indigo-900/30 rounded-full font-medium transition-colors"

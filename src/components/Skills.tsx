@@ -1,5 +1,5 @@
 import React from 'react';
-import { Code, Monitor, Server, Database, Smartphone } from './Icons';
+import { Code, Monitor, Server } from './Icons';
 
 interface SkillCategory {
   icon: React.ReactNode;
@@ -12,41 +12,22 @@ export const Skills: React.FC = () => {
     {
       icon: <Code className="w-8 h-8 text-indigo-600 dark:text-indigo-400" />,
       title: 'Frontend Development',
-      skills: ['HTML5', 'CSS3/SASS', 'JavaScript/TypeScript', 'React', 'Vue.js', 'Next.js', 'Redux', 'Tailwind CSS']
+      skills: ['HTML5', 'CSS3/SASS', 'JavaScript/TypeScript', 'React','Tailwind CSS']
     },
     {
       icon: <Server className="w-8 h-8 text-indigo-600 dark:text-indigo-400" />,
-      title: 'Backend Development',
-      skills: ['Node.js', 'Express', 'Python', 'Django', 'RESTful APIs', 'GraphQL', 'Authentication', 'Security']
+      title: 'Backend and Database',
+      skills: [ 'Python', 'MySQL']
     },
-    {
-      icon: <Database className="w-8 h-8 text-indigo-600 dark:text-indigo-400" />,
-      title: 'Database & DevOps',
-      skills: ['MongoDB', 'PostgreSQL', 'Firebase', 'Supabase', 'Docker', 'CI/CD', 'AWS', 'Vercel/Netlify']
-    },
+
     {
       icon: <Monitor className="w-8 h-8 text-indigo-600 dark:text-indigo-400" />,
       title: 'UI/UX & Design',
-      skills: ['Figma', 'Adobe XD', 'Responsive Design', 'Wireframing', 'Prototyping', 'Accessibility', 'User Testing', 'Design Systems']
+      skills: ['Figma', 'Responsive Design', 'Wireframing', 'Prototyping', 'Accessibility', 'User Testing', 'Design Systems']
     },
-    {
-      icon: <Smartphone className="w-8 h-8 text-indigo-600 dark:text-indigo-400" />,
-      title: 'Mobile Development',
-      skills: ['React Native', 'Flutter', 'iOS/Android Basics', 'Responsive Patterns', 'Native Integration', 'Push Notifications']
-    }
+    
   ];
 
-  // Skill proficiency for the horizontal bars
-  const proficientSkills = [
-    { name: 'JavaScript', level: 95 },
-    { name: 'React', level: 90 },
-    { name: 'HTML/CSS', level: 95 },
-    { name: 'TypeScript', level: 85 },
-    { name: 'Node.js', level: 80 },
-    { name: 'Next.js', level: 85 },
-    { name: 'Tailwind CSS', level: 90 },
-    { name: 'UI/UX Design', level: 75 },
-  ];
 
   return (
     <section id="skills" className="py-16 md:py-24">
@@ -85,29 +66,7 @@ export const Skills: React.FC = () => {
           ))}
         </div>
         
-        {/* Proficiency Levels */}
-        <div className="bg-white dark:bg-slate-900 rounded-xl shadow-lg p-8">
-          <h3 className="text-2xl font-bold mb-6 text-slate-800 dark:text-white">Proficiency Levels</h3>
-          <div className="space-y-6">
-            {proficientSkills.map((skill, index) => (
-              <div key={index}>
-                <div className="flex justify-between mb-2">
-                  <span className="font-medium text-slate-700 dark:text-slate-300">{skill.name}</span>
-                  <span className="text-indigo-600 dark:text-indigo-400">{skill.level}%</span>
-                </div>
-                <div className="h-2 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden">
-                  <div 
-                    className="h-full bg-gradient-to-r from-indigo-500 to-indigo-600 dark:from-indigo-400 dark:to-indigo-500 rounded-full transition-all duration-1000 ease-in-out"
-                    style={{ 
-                      width: `${skill.level}%`,
-                      animation: `progressAnimation 1.5s ease-out ${index * 0.2}s` 
-                    }}
-                  ></div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+        
       </div>
     </section>
   );
