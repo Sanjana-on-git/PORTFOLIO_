@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useTheme } from '../context/ThemeContext';
-import { Menu, X, Sun, Moon, GithubLogo, Linkedin, Twitter } from '../components/Icons';
+import { Menu, X, Sun, Moon, GithubLogo, Linkedin} from '../components/Icons';
 
 interface HeaderProps {
   scrollPosition: number;
