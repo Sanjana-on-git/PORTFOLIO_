@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-import sanjana from '../images/sanjana.jpg'; 
+import sanjana from '../images/sanjana-canva.jpg'; 
 import { MoveRight, Download } from './Icons';
 import resume from '../images/resume.pdf'; 
 export const Hero: React.FC = () => {
