@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Download } from './Icons';
 import resume from '../images/resume.pdf';
 export const About: React.FC = () => {
@@ -22,6 +23,11 @@ export const About: React.FC = () => {
   ];
 
   return (
+    <>
+    <Helmet>
+        <title>About | Sanjana Chatterjee</title>
+        <meta name="description" content="About Sanjana, a frontend developer skilled in React, TypeScript, and Tailwind." />
+      </Helmet>
     <section id="about" className="py-16 md:py-24 bg-slate-100 dark:bg-slate-800/50">
       <div className="container mx-auto px-4 md:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -78,5 +84,6 @@ export const About: React.FC = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { ExternalLink, GithubLogo, MoveRight } from './Icons';
 import Lexi from '../images/Lexi.png';
 import buybetter from '../images/buybetter.png';
@@ -101,6 +102,12 @@ export const Projects: React.FC = () => {
   ];
 
   return (
+    <>
+            <Helmet>
+                <title>About | Sanjana Chatterjee</title>
+                <meta name="description" content="About Sanjana, a frontend developer skilled in React, TypeScript, and Tailwind." />
+              </Helmet>
+    
     <section id="projects" className="py-16 md:py-24 bg-slate-100 dark:bg-slate-800/50">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-12">
@@ -199,5 +206,6 @@ export const Projects: React.FC = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };

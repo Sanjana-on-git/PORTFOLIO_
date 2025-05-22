@@ -1,6 +1,6 @@
 import React from 'react';
 import { Code, Monitor, Server } from './Icons';
-
+import { Helmet } from 'react-helmet-async';
 interface SkillCategory {
   icon: React.ReactNode;
   title: string;
@@ -30,6 +30,12 @@ export const Skills: React.FC = () => {
 
 
   return (
+    <>
+            <Helmet>
+                <title>About | Sanjana Chatterjee</title>
+                <meta name="description" content="About Sanjana, a frontend developer skilled in React, TypeScript, and Tailwind." />
+              </Helmet>
+    
     <section id="skills" className="py-16 md:py-24">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-12">
@@ -69,5 +75,6 @@ export const Skills: React.FC = () => {
         
       </div>
     </section>
+    </>
   );
 };

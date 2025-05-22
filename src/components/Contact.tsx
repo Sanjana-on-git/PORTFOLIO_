@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { Send, Mail, Phone, MapPin } from './Icons';
 
 export const Contact: React.FC = () => {
@@ -64,6 +65,11 @@ export const Contact: React.FC = () => {
   ];
 
   return (
+<>
+        <Helmet>
+            <title>About | Sanjana Chatterjee</title>
+            <meta name="description" content="About Sanjana, a frontend developer skilled in React, TypeScript, and Tailwind." />
+          </Helmet>
     <section id="contact" className="py-16 md:py-24 bg-slate-100 dark:bg-slate-800/50">
       <div className="container mx-auto px-4 md:px-8">
         <div className="text-center mb-12">
@@ -237,5 +243,6 @@ export const Contact: React.FC = () => {
         </div>
       </div>
     </section>
+    </>
   );
 };
