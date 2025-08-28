@@ -95,9 +95,28 @@ export const Projects: React.FC = () => {
       technologies: ['Figma', 'Prototyping', 'Wireframing', 'UI/UX Design'],
       category: ['ui'],
       demoUrl: 'https://www.figma.com/proto/GVJBPNWJtW3cHkCVxkSUUS/Untitled?node-id=1-2&t=9euSnJQbl96m0zsT-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2',
-      githubUrl: 'https://github.com/Sanjana-on-git/Basic-JS-Chatbot'
+      githubUrl: '#'
     },
-    
+     {
+      id: 8,
+      title: 'EdTech Authentication (Responsive)',
+      description: 'Created child-friendly authentication pages (Login, Signup, and Forgot Password) for an EdTech platform designed for young learners. The UI uses bright colors, large buttons, and playful illustrations to make the process fun and unintimidating for kids.',
+      image: EdTech,
+      technologies: ['Figma', 'Prototyping', 'Wireframing', 'UI/UX Design'],
+      category: ['ui'],
+      demoUrl: 'https://www.figma.com/proto/rdAvrsKHJxDiHw2BkljmXo/SmarterTeens?node-id=1-2',
+      githubUrl: '#'
+    },
+     {
+      id: 9,
+      title: 'EdTech Authentication (Responsive)',
+      description: 'Created child-friendly authentication pages (Login, Signup, and Forgot Password) for an EdTech platform designed for young learners. The UI uses bright colors, large buttons, and playful illustrations to make the process fun and unintimidating for kids.',
+      image: EdTech,
+      technologies: ['Figma', 'Prototyping', 'Wireframing', 'UI/UX Design'],
+      category: ['ui'],
+      demoUrl: 'https://www.figma.com/proto/rdAvrsKHJxDiHw2BkljmXo/SmarterTeens?node-id=1-2',
+      githubUrl: '#'
+    },
   ];
   
   // Filter projects based on active category
