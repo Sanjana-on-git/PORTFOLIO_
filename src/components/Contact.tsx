@@ -50,12 +50,7 @@ export const Contact: React.FC = () => {
       value: 'sanjanachatterjee04@gmail.com',
       href: 'mailto:sanjanachatterjee04@gmail.com'
     },
-    {
-      icon: <Phone className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />,
-      label: 'Phone',
-      value: '+91 8447061013',
-      href: 'tel:+918447061013'
-    },
+   
     {
       icon: <MapPin className="w-5 h-5 text-indigo-600 dark:text-indigo-400" />,
       label: 'Location',
