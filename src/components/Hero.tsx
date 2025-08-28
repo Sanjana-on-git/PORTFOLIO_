@@ -9,7 +9,7 @@ export const Hero: React.FC = () => {
   useEffect(() => {
     if (!textRef.current) return;
     
-    const roles = ['Web Developer', 'UI/UX Designer', 'React Expert', 'Python Enthusiast'];
+    const roles = ['Web Developer', 'UI/UX Designer', 'React Expert'];
     let currentRoleIndex = 0;
     let currentLetterIndex = 0;
     let isDeleting = false;
@@ -61,7 +61,7 @@ export const Hero: React.FC = () => {
               I'm a <span ref={textRef} className="text-indigo-600 dark:text-indigo-400"></span>
             </h2>
             <p className="text-base md:text-lg text-slate-700 dark:text-slate-300 mb-8 max-w-lg opacity-0 animate-fade-in animation-delay-600">
-              I craft responsive websites where technologies meet creativity. With a strong focus on React, TypeScript, and modern design principles, I build engaging user experiences that drive results.
+              I design and develop responsive websites where technologies meet creativity. With a strong focus on React, TypeScript, and modern design principles, I build engaging user experiences that drive results.
             </p>
             <div className="flex flex-wrap gap-4 opacity-0 animate-fade-in animation-delay-800">
               <a 
