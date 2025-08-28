@@ -7,6 +7,7 @@ import weather from '../images/weather.png';
 import chitchat from '../images/chitchat.png';
 import urbanPalette from '../images/urbanPalette.png';
 import TGF from '../images/TGF.png';
+import EdTech from '../images/EdTech.png';
 // Project types
 type ProjectCategory = 'all' | 'web' | 'ui' | 'other';
 
