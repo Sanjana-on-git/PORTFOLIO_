@@ -87,7 +87,7 @@ export const Projects: React.FC = () => {
       githubUrl: 'https://github.com/Sanjana-on-git/Basic-JS-Chatbot'
     },
      {
-      id: 6,
+      id: 7,
       title: 'Lexi-Gamified Learning',
       description: 'Designed an interactive gamified learning platform tailored for dyslexic children, focusing on accessibility, engagement, and ease of use.',
       image: Lexi,
