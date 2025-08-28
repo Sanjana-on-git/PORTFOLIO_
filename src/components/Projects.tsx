@@ -8,6 +8,7 @@ import chitchat from '../images/chitchat.png';
 import urbanPalette from '../images/urbanPalette.png';
 import TGF from '../images/TGF.png';
 import EdTech from '../images/EdTech.png';
+import Dashboard from '../images/DashBoard.png'
 // Project types
 type ProjectCategory = 'all' | 'web' | 'ui' | 'other';
 
@@ -109,12 +110,12 @@ export const Projects: React.FC = () => {
     },
      {
       id: 9,
-      title: 'EdTech Authentication (Responsive)',
-      description: 'Created child-friendly authentication pages (Login, Signup, and Forgot Password) for an EdTech platform designed for young learners. The UI uses bright colors, large buttons, and playful illustrations to make the process fun and unintimidating for kids.',
-      image: EdTech,
+      title: 'Mentor Dashboard',
+      description: 'Designed an intuitive Mentor Dashboard for an EdTech platform to help mentors track student progress and manage learning activities. The dashboard features a clean layout with performance analytics, assignment tracking, and communication tools, making it easy for mentors to guide and support students effectively.',
+      image: Dashboard,
       technologies: ['Figma', 'Prototyping', 'Wireframing', 'UI/UX Design'],
       category: ['ui'],
-      demoUrl: 'https://www.figma.com/proto/rdAvrsKHJxDiHw2BkljmXo/SmarterTeens?node-id=1-2',
+      demoUrl: 'https://www.figma.com/design/e03jFJqYr4cTc21x7z8SVe/Untitled?node-id=0-1&p=f&t=2BjZZRKhGlUHN70e-0',
       githubUrl: '#'
     },
   ];
