@@ -68,9 +68,7 @@ export const Footer: React.FC = () => {
               <li className="text-slate-400">
                 <a href="mailto:sanjanachatterjee04@gmail.com" className="hover:text-indigo-400 transition-colors">sanjanachatterjee04@gmail.com</a>
               </li>
-              <li className="text-slate-400">
-                <a href="tel:+918447061013" className="hover:text-indigo-400 transition-colors">+91 8447061013</a>
-              </li>
+             
               <li className="text-slate-400">
                 Delhi, India
               </li>
