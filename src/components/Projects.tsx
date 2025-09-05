@@ -8,7 +8,8 @@ import chitchat from '../images/chitchat.png';
 import urbanPalette from '../images/urbanPalette.png';
 import TGF from '../images/TGF.png';
 import EdTech from '../images/EdTech.png';
-import Dashboard from '../images/DashBoard.png'
+import Dashboard from '../images/DashBoard.png';
+import Monster from '../images/Monster.png';
 // Project types
 type ProjectCategory = 'all' | 'web' | 'ui' | 'other';
 
