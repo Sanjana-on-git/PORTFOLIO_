@@ -119,6 +119,16 @@ export const Projects: React.FC = () => {
       demoUrl: 'https://www.figma.com/design/e03jFJqYr4cTc21x7z8SVe/Untitled?node-id=0-1&p=f&t=2BjZZRKhGlUHN70e-0',
       githubUrl: '#'
     },
+    {
+      id: 10,
+      title: 'Monster Website Redesigned',
+      description: 'I reimagined Monster Energy with a striking new look that pushes the brand beyond its classic identity. The redesign introduces sleeker layouts, vibrant gradients, and modern typography while still keeping the raw, high-energy vibe Monster is known for. Each flavor has a distinct color system and visual language, making it instantly recognizable while standing out on the shelves.',
+      image: Monster,
+      technologies: ['Figma', 'Prototyping', 'Wireframing', 'UI/UX Design'],
+      category: ['ui'],
+      demoUrl: 'https://www.figma.com/proto/BohE3acbNZLSGzybTw5nls/Untitled?node-id=4-43&t=GUvpxavwaJa0ql1r-0&scaling=scale-down&content-scaling=responsive&page-id=0%3A1&starting-point-node-id=1%3A2',
+      githubUrl: '#'
+    },
   ];
   
   // Filter projects based on active category
