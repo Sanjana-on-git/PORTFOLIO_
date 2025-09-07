@@ -12,7 +12,7 @@ import TGF from '../images/TGF.png';
 import EdTech from '../images/EdTech.png';
 import Dashboard from '../images/Dashboard.png';
 import Monster from '../images/Monster.png';
-
+import GBU from '../images/GBU Website- Redesigned.png'
 // Project types
 type ProjectCategory = 'all' | 'web' | 'ui' | 'other';
 
@@ -143,6 +143,18 @@ export const Projects: React.FC = () => {
       category: ['ui'],
       demoUrl:
         'https://www.figma.com/proto/BohE3acbNZLSGzybTw5nls/Untitled?node-id=4-43',
+      githubUrl: '#',
+    },
+     {
+      id: 11,
+      title: 'GBU Website Redesigned',
+      description:
+        'I redesigned the official website of GBU with a modern, user-friendly approach. The goal was to improve accessibility, enhance navigation, and create a clean visual hierarchy that reflects the university’s values. I focused on a responsive layout, refined typography, and a cohesive color scheme that improves readability and engagement across devices.',
+      image: GBU,
+      technologies: ['Figma', 'Prototyping', 'Wireframing', 'UI/UX Design'],
+      category: ['ui'],
+      demoUrl:
+        'https://www.figma.com/proto/lSWw13l9mKrzVIXKrbfY2a/Untitled?node-id=1-1117&p=f&t=GjjoAoPRBvCk5aBB-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1',
       githubUrl: '#',
     },
   ];
